@@ -99,3 +99,10 @@ To overcome following switching problems of S-R Flip-Flops, J-K Flip-Flop was de
 2. If Set or Reset change state while the enable (EN) input is high, the correct latching action may not occur.
 
 The JK flip flop is a **gated SR flip-flop** with the addition of a clock input circuitry that prevents the illegal or invalid output condition that can occur when both inputs S and R are equal to logic level “1”. Due to this additional clocked input, a JK flip-flop has four possible input combinations, “logic 1”, “logic 0”, “no change” and “toggle”. 
+
+If both the J and K inputs are HIGH at logic “1” (J = K = 1), when the clock input goes HIGH, the circuit will “toggle” as its outputs switch and change state complementing each other. This results in the JK flip-flop acting more like a T-type toggle flip-flop when both terminals are “HIGH”. However, as the outputs are fed back to the inputs, this can cause the output at Q to oscillate between SET and RESET continuously after being complemented once.
+
+While this JK flip-flop circuit is an improvement on the clocked SR flip-flop it also suffers from timing problems called “race” if the output Q changes state before the timing pulse of the clock input has time to go “OFF”. To avoid this the timing pulse period (T) must be kept as short as possible (high frequency). As this is sometimes not possible with basic JK’s built using basic NAND or NOR gates, far more advanced master-slave (edge-triggered) flip-flops were developed which are more stable.
+
+![image](https://github.com/sreemoyee-chatterjee9/111_Days_Of_Verification/assets/123591219/4ab95a96-b7a8-4c30-ac34-8b305111d0c6)
+
