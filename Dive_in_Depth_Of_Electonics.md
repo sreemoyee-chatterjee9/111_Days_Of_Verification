@@ -92,3 +92,10 @@ Some of the applications of SR flip-flop in real-world includes:
 ### Functions of J-K Flip-Flop
 
 ![image](https://github.com/sreemoyee-chatterjee9/111_Days_Of_Verification/assets/123591219/5119f66a-b274-4314-b01d-35a19821080b)
+
+To overcome following switching problems of S-R Flip-Flops, J-K Flip-Flop was developed.
+
+1. For S-R Nand Gate Flip-Flop, Set = 0 and Reset = 0 condition (S = R = 0) must always be avoided to omit the race-around condition.
+2. If Set or Reset change state while the enable (EN) input is high, the correct latching action may not occur.
+
+The JK flip flop is a **gated SR flip-flop** with the addition of a clock input circuitry that prevents the illegal or invalid output condition that can occur when both inputs S and R are equal to logic level “1”. Due to this additional clocked input, a JK flip-flop has four possible input combinations, “logic 1”, “logic 0”, “no change” and “toggle”. 
