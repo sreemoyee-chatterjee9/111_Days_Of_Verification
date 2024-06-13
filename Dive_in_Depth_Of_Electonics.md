@@ -106,7 +106,7 @@ While this JK flip-flop circuit is an improvement on the clocked SR flip-flop it
 
 ![image](https://github.com/sreemoyee-chatterjee9/111_Days_Of_Verification/assets/123591219/c7543a12-0990-41cb-987c-09ac57ff671a)
 
-**<ins>Operation Modes of JK Flip Flop:<\ins>**
+**<ins>Operation Modes of JK Flip Flop:**
 
 Apart from its basic functionality, there are two essential operating modes in JK Flip Flop: edge-triggered and level-triggered.
 
