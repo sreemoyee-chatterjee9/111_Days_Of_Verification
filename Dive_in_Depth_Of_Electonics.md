@@ -5,6 +5,7 @@ Index:
 
 # Flip-Flop and Latches:
 ## Functions of S-R Flip-Flop
+## Functions of J-K Flip-Flop
 
 
 ## Functions of S-R Flip-Flop:
