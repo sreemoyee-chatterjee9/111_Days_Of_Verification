@@ -104,5 +104,6 @@ If both the J and K inputs are HIGH at logic “1” (J = K = 1), when the clock
 
 While this JK flip-flop circuit is an improvement on the clocked SR flip-flop it also suffers from timing problems called “race” if the output Q changes state before the timing pulse of the clock input has time to go “OFF”. To avoid this the timing pulse period (T) must be kept as short as possible (high frequency). As this is sometimes not possible with basic JK’s built using basic NAND or NOR gates, far more advanced master-slave (edge-triggered) flip-flops were developed which are more stable.
 
-![image](https://github.com/sreemoyee-chatterjee9/111_Days_Of_Verification/assets/123591219/4ab95a96-b7a8-4c30-ac34-8b305111d0c6)
+![image](https://github.com/sreemoyee-chatterjee9/111_Days_Of_Verification/assets/123591219/c7543a12-0990-41cb-987c-09ac57ff671a)
+
 
