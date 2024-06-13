@@ -8,6 +8,48 @@ Dive in VLSI Verifications from Basics
 ### Functions of J-K Flip-Flop
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### Functions of S-R Flip-Flop
 
 ![image](https://github.com/sreemoyee-chatterjee9/111_Days_Of_Verification/assets/123591219/420f6657-2c6e-465d-ae1f-ce1bf309bc95)
