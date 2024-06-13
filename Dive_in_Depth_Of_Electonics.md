@@ -3,7 +3,7 @@ Dive in VLSI Verifications from Basics
 
 # Index:
 
-## Flip-Flop and Latches:
+## Day 1 : Flip-Flop and Latches:
 ### [Functions of S-R Flip-Flop](#functions-of-s\-r-flip\-flop)
 ### [Functions of J-K Flip-Flop](#functions-of-J\-K-flip\-flop-1)
 
