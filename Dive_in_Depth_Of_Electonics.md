@@ -5,50 +5,7 @@ Dive in VLSI Verifications from Basics
 
 ## Flip-Flop and Latches:
 ### [Functions of S-R Flip-Flop](###functions-of-s\-r-flip\-flop)
-### Functions of J-K Flip-Flop
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+### [Functions of J-K Flip-Flop](###functions-of-j\-k-flip\-flop)
 
 ### Functions of S-R Flip-Flop
 
@@ -129,3 +86,9 @@ Some of the applications of SR flip-flop in real-world includes:
 <ins>Data synchronization:</ins> The SR flip-flop can be used to synchronize data signals between two digital circuits, ensuring that they are operating on the same clock cycle. This is useful in communication systems where data needs to be transmitted and received at specific times.
 
 <ins>Oscillators:</ins> The SR flip-flop can be used in conjunction with other components to create simple oscillators that generate a periodic signal. This is useful in applications such as clock circuits and audio signal generators.
+
+
+
+### Functions of J-K Flip-Flop
+
+![image](https://github.com/sreemoyee-chatterjee9/111_Days_Of_Verification/assets/123591219/5119f66a-b274-4314-b01d-35a19821080b)
