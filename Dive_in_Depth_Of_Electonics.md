@@ -115,17 +115,26 @@ Apart from its basic functionality, there are two essential operating modes in J
 **Level-Triggered:** Unlike the edge-triggered mode, the level-triggered JK Flip Flop responds to the input values continuously as long as the clock signal is held at a specific level (high or low). This mode is mainly used in asynchronous systems or applications where the input changes are directly reflected in the output.
 
 
-Applications of JK Flip-Flop
-We can simply implement a JK-flipflop using NAND gates. In that case two NAND gates need to be connected together and the output of that will be feed to the input which will create a stable state-holding circuit. The resulting circuit will be the NAND gate. So, by following this mechanism we can develop and use JK-flipflop for various application which are listed below.
+**<ins>Applications of JK Flip-Flop:**
 
-Counters: These are very essential components for the application of frequency dividers and event sequencers where there is a need of storing and propagating the count value. We can design binary synchronous and asynchronous counters using JK-flipflop.
-Shift registers: For data storage and manipulation, serial-to-parallel or parallel-to-serial data conversion the shift registers are widely used. Registers can store and shift the binary data in a sequential manner. We can design it by JK-flipflops.
-Memory Units: JK-flipflop itself act as a memory unit to store binary information. By making a sequential chain of JK-flipflops we can use it even as RAM.
-Advantages of JK Flip-Flop
-Versatility: As discussed above, JK-flipflops can be used as a basic memory element or a primary building block of further complex memory design. It is very much adaptive as it can be operated in both synchronous and asynchronous modes.
-Toggle Functionality: The application which are required to get output as its complement of input that also can be developed by JK-flipflops as when J=K=1 it triggers toggle state which gives output which is complement with it’s each clock pulse.
-Error Detection and Correction: We can use a complex circuit built by JK-flipflops which can detect and correct information during data-transmission.
-Disadvantages of JK Flip-Flop
-Complexity: Compared to other types of flipflops(D,T, SR), JK flipflop requires additional logic gates to implement which consumes extra memory resources and increases complexity to operate.
-Propagation Delay: This is the major problem present in JK-FF. Propagation delay results a timing delay in certain application which are time-flow sensitive.
-Race Problem: This issue arises when the clock input’s timing pulse isn’t given enough time to turn “Off” before the output Q’s state is altered.
+<ins>Counters::</ins> These are very essential components for the application of frequency dividers and event sequencers where there is a need of storing and propagating the count value. We can design binary synchronous and asynchronous counters using JK-flipflop.
+
+<ins>Shift registers::</ins> For data storage and manipulation, serial-to-parallel or parallel-to-serial data conversion the shift registers are widely used. Registers can store and shift the binary data in a sequential manner. We can design it by JK-flipflops.
+
+<ins>Memory Units::</ins> JK-flipflop itself act as a memory unit to store binary information. By making a sequential chain of JK-flipflops we can use it even as RAM.
+
+**<ins>Advantages of JK Flip-Flop:**
+
+<ins>Versatility::</ins> As discussed above, JK-flipflops can be used as a basic memory element or a primary building block of further complex memory design. It is very much adaptive as it can be operated in both synchronous and asynchronous modes.
+
+<ins>Toggle Functionality::</ins> The application which are required to get output as its complement of input that also can be developed by JK-flipflops as when J=K=1 it triggers toggle state which gives output which is complement with it’s each clock pulse.
+
+<ins>Error Detection and Correction::</ins> We can use a complex circuit built by JK-flipflops which can detect and correct information during data-transmission.
+
+**<ins>Disadvantages of JK Flip-Flop:**
+
+<ins>Complexity::</ins> Compared to other types of flipflops(D,T, SR), JK flipflop requires additional logic gates to implement which consumes extra memory resources and increases complexity to operate.
+
+<ins>Propagation Delay::</ins> This is the major problem present in JK-FF. Propagation delay results a timing delay in certain application which are time-flow sensitive.
+
+<ins>Race Problem::</ins> This issue arises when the clock input’s timing pulse isn’t given enough time to turn “Off” before the output Q’s state is altered.
