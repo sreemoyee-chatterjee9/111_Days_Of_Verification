@@ -5,7 +5,7 @@ Dive in VLSI Verifications from Basics
 
 ## Flip-Flop and Latches:
 ### [Functions of S-R Flip-Flop](#functions-of-s\-r-flip\-flop)
-### [Functions of J-K Flip-Flop](#functions-of-J\-K-flip\-flop)
+### [Functions of J-K Flip-Flop](#functions-of-J\-K-flip\-flop-1)
 
 ### Functions of S-R Flip-Flop
 
