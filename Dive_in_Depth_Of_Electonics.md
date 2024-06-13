@@ -1,14 +1,14 @@
 # 111_Days_Of_Verification
 Dive in VLSI Verifications from Basics
 
-Index:
+# Index:
 
-# Flip-Flop and Latches:
-## Functions of S-R Flip-Flop
-## Functions of J-K Flip-Flop
+## Flip-Flop and Latches:
+### [Functions of S-R Flip-Flop](###functions-of-s\-r-flip\-flop)
+### Functions of J-K Flip-Flop
 
 
-## Functions of S-R Flip-Flop:
+### Functions of S-R Flip-Flop
 
 ![image](https://github.com/sreemoyee-chatterjee9/111_Days_Of_Verification/assets/123591219/420f6657-2c6e-465d-ae1f-ce1bf309bc95)
 
