@@ -7,7 +7,7 @@ Dive in VLSI Verifications from Basics
 ### [Functions of S-R Flip-Flop](#functions-of-s-r-flip-flop-1)
 ### [Functions of J-K Flip-Flop](#functions-of-j-k-flip-flop-1)
 ### [Differences between Flip-Flops and Latches](#differences-between-flip-flops-and-latches-1)
-### [Why latches are faster than flip-flops](#why-latches-are-faster-than-flip-flops)
+### [Why latches are faster than flip-flops](#why-latches-are-faster-than-flip-flops-1)
 
 ### Functions of S-R Flip-Flop
 
