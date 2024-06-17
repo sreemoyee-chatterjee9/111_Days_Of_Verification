@@ -148,6 +148,7 @@ Apart from its basic functionality, there are two essential operating modes in J
 
 ![image](https://github.com/sreemoyee-chatterjee9/111_Days_Of_Verification/assets/123591219/cf6a9373-f4c1-452e-bc10-188840f3e1fc)
 
+
 ### Why latches are faster than flip-flops
 
 Both latches and flip-flops are used as memory elements in sequential circuits. The primary difference between a latch and a flip-flip is in their operations.
@@ -157,3 +158,31 @@ A latch is level-sensitive. It is transparent. Hence,its output changes as soon 
 On the other hand, a flip-flop is edge-triggered. its output changes only on a clock edge (rising or falling edge). This introduces an additional delay compared to latches because the input change must meet the setup time requirement before the clock edge to guarantee proper operation. This setup time requirement limits the maximum clock frequency at which a flip-flop can operate effectively.
 
 Therefore, because latches are transparent and respond immediately to input changes, they are generally faster than flip-flops in terms of processing speed. 
+
+### Applications of Flip-Flops
+
+- Frequency dividers
+- Counters :
+  The term counter indicates a circuit that progressively shows the numbers. These counter circuits are implemented to display binary numbers in sequential order with the help of a clock pulse. Some common counters are counter 2 circuit, counter 4 circuit and even counter 7 circuit.
+- Storage registers
+- Shift registers :
+  Shift registers are used to transfer data bits one by one to the next register. By temporarily storing data and then transmitting data when they receive clock impulse, they help to transfer data. This is essentially useful for rotate operations and series-parallel conversions.
+- Data storage :
+  Flip-Flips have the ability to store different states in a circuit making them the basic block. They are termed as storage registers and can store data in terms of ‘0’ and ‘1’. Therefore multiple flip flops can be used to store large data bits.
+- Bounce elimination switch
+- Latch
+- Data transfer
+- Memory
+- Registers
+
+
+### Applications of Latches
+
+Generally, latches are used to keep the conditions of the bits to encode binary numbers. Latches are single bit storage elements which are widely used in computing as well as data storage. Latches are used in the circuits like power gating & clock as a storage device. D latches are applicable for asynchronous systems like input or output ports. Data latches are used in synchronous two-phase systems for reducing the transit count.
+
+The applications of these basic digital elements are
+
+- These circuits are known for storing the information in the form of bits. These are known as memory elements.
+- The usage of pulse latches follows the same behavior of flip-flops but good enough to generate a quick response.
+- In the two-phase synchronous systems to avoid the transit count, the data latches (D-Latches) are used.
+- It is widely used to store the data and the codes for computations.
