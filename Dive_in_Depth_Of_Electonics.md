@@ -6,7 +6,7 @@ Dive in VLSI Verifications from Basics
 ## Day 1 : Flip-Flop and Latches:
 ### [Functions of S-R Flip-Flop](#functions-of-s-r-flip-flop-1)
 ### [Functions of J-K Flip-Flop](#functions-of-j-k-flip-flop-1)
-### [Differences between Flip-Flops and Latches](#differences-between-flip-flops-and-latches)
+### [Differences between Flip-Flops and Latches](#differences-between-flip-flops-and-latches-1)
 
 ### Functions of S-R Flip-Flop
 
@@ -142,7 +142,7 @@ Apart from its basic functionality, there are two essential operating modes in J
 
 
 
-### Differences between Flip-Flops and Latches:
+### Differences between Flip-Flops and Latches
 
 
 ![image](https://github.com/sreemoyee-chatterjee9/111_Days_Of_Verification/assets/123591219/cf6a9373-f4c1-452e-bc10-188840f3e1fc)
