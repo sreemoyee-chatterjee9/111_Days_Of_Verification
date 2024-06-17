@@ -4,8 +4,9 @@ Dive in VLSI Verifications from Basics
 # Index:
 
 ## Day 1 : Flip-Flop and Latches:
-### [Functions of S-R Flip-Flop](#functions-of-s\-r-flip\-flop)
-### [Functions of J-K Flip-Flop](#functions-of-J\-K-flip\-flop-1)
+### [Functions of S-R Flip-Flop](#functions-of-s-r-flip-flop-1)
+### [Functions of J-K Flip-Flop](#functions-of-j-k-flip-flop-1)
+### [Differences between Flip-Flops and Latches](#differences-between-flip-flops-and-latches)
 
 ### Functions of S-R Flip-Flop
 
@@ -39,11 +40,11 @@ Truth Table of S-R Flip Flop :
 
 ![image](https://github.com/sreemoyee-chatterjee9/111_Days_Of_Verification/assets/123591219/e64e0db1-b30c-452e-8978-48bcbcf0aba4)
 
-S-R Flip Flop using NOR Gates:
+S-R Latch using NOR Gates:
 
 ![image](https://github.com/sreemoyee-chatterjee9/111_Days_Of_Verification/assets/123591219/6fde781f-5403-4dad-95a5-095970879c50)
 
-S'-R' Flip Flop using NAND Gates:
+S'-R' Latch using NAND Gates:
 
 ![image](https://github.com/sreemoyee-chatterjee9/111_Days_Of_Verification/assets/123591219/b5c6eb7c-5ffa-4ee2-a58b-0b884597b10e)
 
@@ -138,3 +139,11 @@ Apart from its basic functionality, there are two essential operating modes in J
 <ins>Propagation Delay::</ins> This is the major problem present in JK-FF. Propagation delay results a timing delay in certain application which are time-flow sensitive.
 
 <ins>Race Problem::</ins> This issue arises when the clock input’s timing pulse isn’t given enough time to turn “Off” before the output Q’s state is altered.
+
+
+
+### Differences between Flip-Flops and Latches:
+
+
+![image](https://github.com/sreemoyee-chatterjee9/111_Days_Of_Verification/assets/123591219/cf6a9373-f4c1-452e-bc10-188840f3e1fc)
+
