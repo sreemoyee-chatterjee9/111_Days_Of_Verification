@@ -7,6 +7,7 @@ Dive in VLSI Verifications from Basics
 ### [Functions of S-R Flip-Flop](#functions-of-s-r-flip-flop-1)
 ### [Functions of J-K Flip-Flop](#functions-of-j-k-flip-flop-1)
 ### [Differences between Flip-Flops and Latches](#differences-between-flip-flops-and-latches-1)
+### [Why latches are faster than flip-flops](#why-latches-are-faster-than-flip-flops)
 
 ### Functions of S-R Flip-Flop
 
@@ -147,3 +148,12 @@ Apart from its basic functionality, there are two essential operating modes in J
 
 ![image](https://github.com/sreemoyee-chatterjee9/111_Days_Of_Verification/assets/123591219/cf6a9373-f4c1-452e-bc10-188840f3e1fc)
 
+### Why latches are faster than flip-flops
+
+Both latches and flip-flops are used as memory elements in sequential circuits. The primary difference between a latch and a flip-flip is in their operations.
+
+A latch is level-sensitive. It is transparent. Hence,its output changes as soon as the input changes. This makes latches faster in terms of setup time compared to flip-flops. In a latch, the output changes immediately when the input changes and remains latched until the latch is disabled.
+
+On the other hand, a flip-flop is edge-triggered. its output changes only on a clock edge (rising or falling edge). This introduces an additional delay compared to latches because the input change must meet the setup time requirement before the clock edge to guarantee proper operation. This setup time requirement limits the maximum clock frequency at which a flip-flop can operate effectively.
+
+Therefore, because latches are transparent and respond immediately to input changes, they are generally faster than flip-flops in terms of processing speed. 
