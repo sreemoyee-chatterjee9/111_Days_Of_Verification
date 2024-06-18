@@ -11,6 +11,7 @@ Dive in VLSI Verifications from Basics
 ### [Applications of Flip-Flops](#applications-of-flip-flops-1)
 ### [Applications of Latches](#applications-of-latches-1)
 ### [Implement D Flip-Flop Using NAND Gate](#implement-d-flip-flop-using-nand-gate-1)
+### [Design D Flip-Flop Using 2:1 Mux]()
 
 ### Functions of S-R Flip-Flop
 
@@ -205,3 +206,10 @@ The "CLOCK" or "ENABLE" input is used to avoid this for isolating the data input
 When the clock input is set to 1, the "set" and "reset" inputs of the flip-flop are both set to 1. So it will not change the state and store the data present on its output before the clock transition occurred. In simple words, the output is "latched" at either 0 or 1.
 
 ![image](https://github.com/sreemoyee-chatterjee9/111_Days_Of_Verification/assets/123591219/e838906a-7e94-45e9-a25d-b4ca3fc96ba8)
+
+
+
+### Design D Flip-Flop Using 2:1 Mux
+
+![image](https://github.com/sreemoyee-chatterjee9/111_Days_Of_Verification/assets/123591219/fba4b5e3-954e-4252-b91b-1e7a353f7c8e)
+
