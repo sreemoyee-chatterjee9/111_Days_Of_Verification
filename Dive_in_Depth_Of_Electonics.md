@@ -11,7 +11,7 @@ Dive in VLSI Verifications from Basics
 ### [Applications of Flip-Flops](#applications-of-flip-flops-1)
 ### [Applications of Latches](#applications-of-latches-1)
 ### [Implement D Flip-Flop Using NAND Gate](#implement-d-flip-flop-using-nand-gate-1)
-### [Design D Flip-Flop Using 2:1 Mux]()
+### [Design D Flip-Flop Using 2:1 Mux](#design-d-flip-flop-using-21-mux-1)
 
 ### Functions of S-R Flip-Flop
 
