@@ -211,5 +211,7 @@ When the clock input is set to 1, the "set" and "reset" inputs of the flip-flop 
 
 ### Design D Flip-Flop Using 2:1 Mux
 
-![image](https://github.com/sreemoyee-chatterjee9/111_Days_Of_Verification/assets/123591219/372846b7-d76d-403e-9fd1-71424c86032b)
+![image](https://github.com/sreemoyee-chatterjee9/111_Days_Of_Verification/assets/123591219/2842376c-9e7e-41a1-96c3-01ed672ec759)
+
+
 
