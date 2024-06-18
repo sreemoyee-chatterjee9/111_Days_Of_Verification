@@ -10,6 +10,7 @@ Dive in VLSI Verifications from Basics
 ### [Why latches are faster than flip-flops](#why-latches-are-faster-than-flip-flops-1)
 ### [Applications of Flip-Flops](#applications-of-flip-flops-1)
 ### [Applications of Latches](#applications-of-latches-1)
+### [Implement D Flip-Flop Using NAND Gate](#implement-d-flip-flop-using-nand-gate-1)
 
 ### Functions of S-R Flip-Flop
 
