@@ -188,3 +188,19 @@ The applications of these basic digital elements are
 - The usage of pulse latches follows the same behavior of flip-flops but good enough to generate a quick response.
 - In the two-phase synchronous systems to avoid the transit count, the data latches (D-Latches) are used.
 - It is widely used to store the data and the codes for computations.
+
+
+### Implement D Flip-Flop Using NAND Gate
+
+We know that the SR flip-flop requires two inputs, i.e., one to "SET" the output and another to "RESET" the output. By using an inverter, we can set and reset the outputs with only one input as now the two input signals complement each other. In SR flip flop, when both the inputs are 0, that state is no longer possible. It is an ambiguity that is removed by the complement in D-flip flop.
+
+
+In D flip flop, the single input "D" is referred to as the "Data" input. When the data input is set to 1, the flip flop would be set, and when it is set to 0, the flip flop would change and become reset. However, this would be pointless since the output of the flip flop would always change on every pulse applied to this data input.
+
+
+The "CLOCK" or "ENABLE" input is used to avoid this for isolating the data input from the flip flop's latching circuitry. When the clock input is set to true, the D input condition is only copied to the output Q. This forms the basis of another sequential device referred to as D Flip Flop.
+
+
+When the clock input is set to 1, the "set" and "reset" inputs of the flip-flop are both set to 1. So it will not change the state and store the data present on its output before the clock transition occurred. In simple words, the output is "latched" at either 0 or 1.
+
+![image](https://github.com/sreemoyee-chatterjee9/111_Days_Of_Verification/assets/123591219/e838906a-7e94-45e9-a25d-b4ca3fc96ba8)
